@@ -1,0 +1,38 @@
+#first-paragraph {
+    color: red;
+    background-color: darkmagenta;
+    font-style: italic;
+    text-align: right;
+}
+
+#second-paragraph {
+    color: #ff55aa;
+    background-color: lavender;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: greenyellow;
+}
+
+#s1 {
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#s2 {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#s3 {
+    background-color: lavender;
+}
+
+#s4 {
+    text-align: right;
+    
+}
