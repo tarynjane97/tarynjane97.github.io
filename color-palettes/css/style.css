@@ -24,3 +24,63 @@
     text-align: center;
     padding: 24px;
 }
+
+
+#cc {
+    font-family: monospace;
+    text-align: center;
+}
+
+#ccc-1 {
+    background-color: #F3CF00;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ccc-2 {
+    background-color: #FFC54C;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ccc-3 {
+    background-color: #FFC07E;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#ccc-4 {
+    background-color: #FFC3AC;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#sos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#sos-1 {
+    background-color: #F8AA4E;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#sos-2 {
+    background-color: #00D6BD;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#sos-3 {
+    background-color: #009E87;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
