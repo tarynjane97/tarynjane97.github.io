@@ -1,0 +1,29 @@
+div {
+    border: 7px ridge coral;
+    margin: 24px;
+    padding: 24px 50px;
+}
+    /* 
+        2 values splits it accross vertical and horizontal axis. 
+        The first value gets applied to the top and bottom margins
+        and the second values gets applied to the left and right.  
+
+         margin: 50px 150px
+
+ 
+        When  there's three values the first valuee is the top, the
+        second value is the left and right, and the third value is
+        the bottom. 
+
+        margin: 25px 200px 50px
+
+
+        4 values splits them across all four sides.
+        First value is the top
+        Second value is the rightt
+        Third value iis the bottom
+        Fourth value iis thee left.
+        (Padding works the exact same way for short hand.)
+
+        margin: 10px 50px 30px 5px
+    */
