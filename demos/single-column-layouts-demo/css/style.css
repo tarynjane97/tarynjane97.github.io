@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Box sizing prooperty deetermines how the sizing works for every element
+on the page. Every element has a box sizing property. The border, padding & 
+content  */
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.light-container {
+    padding: 48px 0px;
+    background-color: lavender;
+}
+
+.dark-container {
+    padding: 48px 0px;
+    background-color: darkcyan
+}
