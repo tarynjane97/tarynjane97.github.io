@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar {
+    background-color: rgb(255, 179, 0);
+    border-right: 10px solid orangered;
+    width: 3000px;
+    padding: 24px;
+}
+
+#sidebar h2 {
+    border-bottom: 3px solid orangered;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+
+#sidebar ul a {
+    color:black;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+#main {
+    padding: 48px;
+    border-top:70px solid orangered;
+}
+
+#introduction {
+    border-bottom: 2px solid black;
+    padding: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+}
+
+#psychology {
+    border-bottom: 2px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#healthcare {
+    border-bottom: 2px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#religion {
+    border-bottom: 2px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
