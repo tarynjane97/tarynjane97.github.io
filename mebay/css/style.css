@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "image content sidebar"
+    ;
+}
+
+#header {
+    grid-area: header;
+    padding: 12px 55px;
+    
+    margin-bottom: 12px;
+    border-bottom: 2px inset orangered;
+    background: radial-gradient(at top left, rgba(249, 234, 237, 0.295), rgba(247, 176, 148, 0.559), rgba(255, 68, 0, 0.825));
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: orangered;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: radial-gradient(at top left, rgb(246, 241, 250), rgb(148, 201, 210), rgb(13, 143, 166));
+    padding: 8px;
+    border: 1px solid orangered
+}
+
+#header #bay {
+    color: rgb(13, 143, 166);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 9px solid orangered;
+}
+
+#image-column {
+    grid-area: image;
+}
+
+#info-column {
+    grid-area: content;
+}
+
+#price-quantity ul li {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 150px;
+    text-align: center;
+    margin: 4px;
+    background-color: rgba(148, 201, 210, 0.347);
+}
+
+#price-quantity a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+
+#price-quantity a:hover {
+    background-color: rgba(13, 143, 166, 0.625);
+    border-radius: 150px;
+}
+
+#price-quantity #condition {
+    color: rgb(58, 54, 54);
+    font-size: 12px;
+}
+
+#price-quantity #very-good {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#save {
+    font-weight: bold;
+    font-size: 14px;
+}
+.bulk-item {
+    border: 1px solid rgb(172, 170, 170);
+    padding: 18px;
+    text-align: center;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    margin: 12px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 8px;
+    margin: 0px;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px 0px;
+}
+
+#sidebar1 {
+    border: 1px solid grey;
+    margin-bottom: 24px;
+}
+
+#sidebar1 p {
+    padding: 12px;
+}
+
+#sidebar2 {
+    border: 1px solid grey
+}
+
+#sidebar2 h3 {
+    margin-bottom: 0px;
+    padding: 12px;
+}
+
+#sidebar2 ul {
+    padding: 12px;
+}
+
+#sidebar2 ul a {
+    font-size: 14px;
+}
+
+#p1 {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+#p2 {
+    margin: 2px;
+}
+
+#p3 {
+    margin: 2px;
+    font-size: 12px;
+}
+
+#p4 {
+    margin: 2px;
+    font-size: 12px;
+}
+
+#image-column .img {
+    background-image: url(../images/mebay.png);
+    background-size: cover;
+}
