@@ -162,8 +162,7 @@ body {
     font-size: 12px;
 }
 
-#image-column .img {
-    width: 500px;
-    height: 100px;
+#image-column img {
+    height: 600px;
     padding: 48px;
 }
