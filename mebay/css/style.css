@@ -55,18 +55,19 @@ body {
     text-decoration: none;
     color: #111;
     display: block;
-    padding: 12px;
     border: 1px solid grey;
     border-radius: 150px;
     text-align: center;
     margin: 4px;
-    background-color: rgba(148, 201, 210, 0.347);
 }
 
 #price-quantity a {
     text-decoration: none;
     color: #111;
     display: block;
+    padding: 12px;
+    background-color: rgba(148, 201, 210, 0.347);
+    border-radius: 150px;
 }
 
 #price-quantity a:hover {
@@ -87,11 +88,15 @@ body {
 #save {
     font-weight: bold;
     font-size: 14px;
+    text-align: center;
 }
 .bulk-item {
     border: 1px solid rgb(172, 170, 170);
     padding: 18px;
     text-align: center;
+    width: 150px;
+    display: inline-block;
+    
 }
 
 #sidebar {
@@ -158,6 +163,7 @@ body {
 }
 
 #image-column .img {
-    background-image: url(../images/mebay.png);
-    background-size: cover;
+    width: 500px;
+    height: 100px;
+    padding: 48px;
 }
