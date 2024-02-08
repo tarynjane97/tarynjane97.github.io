@@ -11,6 +11,10 @@ body {
     width: 90vw;
     max-width: 800px;
     margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
 }
 
 .card {
@@ -38,4 +42,26 @@ body {
 
 .card p {
     font-size: 18px;
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightcoral;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightcoral;
+    transition: 
+        background-color 0.5s, 
+        color 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 3px solid lightcoral;
+    color: lightcoral;
 }
