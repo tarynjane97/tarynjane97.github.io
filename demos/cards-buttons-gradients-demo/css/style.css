@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.card {
+    width: 350px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient( 
+        50deg, 
+        #ffdbdb, 
+        #fff7f7, 
+        #ffc9c9
+        );
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 18px;
+}
