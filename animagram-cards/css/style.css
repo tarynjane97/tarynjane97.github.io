@@ -15,6 +15,10 @@
     border-radius: 35px;
 }
 
+#animagram-card-1 {
+    margin: 18px;
+}
+
 .animagram-header {
     display: flex;
     justify-content: space-between;
@@ -44,14 +48,14 @@ p {
 }
 
 .card-style-2 p {
-    padding: 36px;
+    padding: 30px;
     margin: 0px;
 }
 
 .animagram-footer {
     display: flex;
     justify-content: space-between;
-    padding: 18px;
+    padding: 24px;
 }
 
 .animagram-footer span {
