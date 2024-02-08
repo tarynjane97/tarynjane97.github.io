@@ -13,6 +13,9 @@
     border: 0px solid transparent;
     box-shadow: -4px 4px 12px black;
     background-color: rgb(238, 251, 238);
+    margin: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card-style-1 img {
@@ -48,7 +51,7 @@
 }
 
 .card-style-1 a:hover {
-    background-color: transparent;
+    background-color: rgba(110, 146, 110, 0.899);
     border: 2px solid green;
     color: green;
 
