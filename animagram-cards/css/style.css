@@ -13,11 +13,9 @@
     background-color: white;
     border: 1px solid rgb(215, 203, 234);
     border-radius: 35px;
-}
-
-#animagram-card-1 {
     margin: 18px;
 }
+
 
 .animagram-header {
     display: flex;
