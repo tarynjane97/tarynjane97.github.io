@@ -58,6 +58,7 @@ body {
     align-items: center;
     flex-direction: column;
     color: rgb(251, 220, 162);
+    margin: 40px;
 }
 
 #hero-1 a {
