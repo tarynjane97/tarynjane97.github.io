@@ -19,7 +19,6 @@ body {
 
 #hero-1 h2, #hero-2 h2, #hero-3 h2 {
     font-size: 48px;
-    margin: 24px;
 }
 
 #hero-1 h4, #hero-2 h4, #hero-3 h4 {
@@ -42,6 +41,7 @@ body {
     position: absolute;
     top: 40px;
     left: 12px;
+    margin: 24px;
 }
 
 #hero-3 {
