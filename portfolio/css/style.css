@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#home {
+    height: 100vh;
+    display: flex;
+    border-bottom: 20px solid rgb(255, 8, 0)
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: rgb(30, 25, 25);
+    background-color: whitesmoke;
+}
+
+#img {
+    flex: 1;
+    background-image: url(../images/selfportrait1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#about h2, #contact h2, #layout h2 {
+    text-decoration: 2px rgb(255, 8, 0) underline;
+}
+
+#home h2 {
+    font-size: 48px;
+    margin: 18px;
+}
+
+#home h4 {
+    font-size: 18px;
+    margin: 18px;
+}
+
+#home a {
+    margin: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: black;
+    padding: 18px 40px;
+    font-weight: bolder;
+    border: 4px solid black;
+    box-shadow: -4px 4px 8px rgb(4, 0, 0);
+}
+
+#home a:hover {
+    color: black;
+    border: 4px solid black;
+    background-color: whitesmoke;
+}
+
+#about {
+    height: 100vh;
+    display: flex;
+    border-bottom: 20px solid rgb(255, 8, 0);
+}
+
+#about-img {
+    flex: 1;
+    background-image: url(../images/light1.JPG);
+    background-size: cover;
+    background-position: center left;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: whitesmoke;
+    background-color: black;
+    padding: 48px;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+#about h4 {
+    font-size: 18px;
+    margin: 18px;
+    text-align: center;
+}
+
+
+#contact {
+    background-color: whitesmoke;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 10px solid rgb(255, 8, 0);
+}
+
+#contact h2 {
+    font-size: 40px;
+    margin: 18px;
+}
+
+#contact h4 {
+    font-size: 18px;
+    margin: 18px;
+}
+
+#layout {
+    width: 100%;
+    margin: 0px  auto;
+    text-align: center;
+}
+
+#layout h2 {
+    background-color: black;
+    margin: 0px;
+    padding: 48px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+    background-color: black;
+    padding: 48px;
+    border-bottom: 10px solid rgb(255, 8, 0);
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+    box-shadow: -4px 4px 12px rgb(246, 244, 244);
+}
+
+#footer {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/portrait2.jpg);
+    background-color: rgba(245, 245, 245, 0.846);
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 24px;
+    box-shadow: -4px 4px 18px rgb(4, 0, 0);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.card p {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.card a {
+    margin: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 18px 40px;
+    font-weight: bolder;
+    border: 4px solid whitesmoke;
+}
+
+.card a:hover {
+    color: black;
+    border: 4px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
