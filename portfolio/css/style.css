@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oxygen:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -31,9 +31,13 @@ body {
     background-position: center center;
 }
 
-#about h2, #contact h2, #layout h2 {
-    text-decoration: 2px rgb(255, 8, 0) underline;
-    font-family: kanit, sans-serif;
+#text h2, #about h2, #contact h2, #layout h2 {
+    font-family: "kanit", sans-serif;
+    font-size: 68px;
+}
+
+p, h4 {
+    font-family: "oxygen", sans-serif;
 }
 
 #home h2 {
@@ -98,6 +102,7 @@ body {
     font-size: 18px;
     margin: 18px;
     text-align: center;
+    padding: 12px;
 }
 
 
@@ -141,18 +146,18 @@ body {
 }
 
 #layout h2 {
-    background-color: black;
+    background-color: whitesmoke;
     margin: 0px;
     padding: 48px;
-    color: whitesmoke;
+    color: black;
     text-transform: uppercase;
-    font-size: 48px;
+    font-size: 54px;
 }
 
 .gallery {
     columns: 3 auto;
     column-gap: 24px;
-    background-color: black;
+    background-color: whitesmoke;
     padding: 48px;
     border-bottom: 10px solid rgb(255, 8, 0);
 }
@@ -160,7 +165,7 @@ body {
 .gallery img {
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: -4px 4px 12px rgb(246, 244, 244);
+    box-shadow: -4px 4px 12px black;
 }
 
 #footer {
@@ -172,7 +177,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-image: url(../images/flowers.JPG);
-    background-color: rgba(245, 245, 245, 0.846);
+    border-bottom: 20px solid rgb(255, 8, 0);
 }
 
 #centered-column {
@@ -194,6 +199,7 @@ body {
     flex-direction: column;
     text-align: center;
     color: whitesmoke;
+    border-bottom: 10px solid rgb(255, 8, 0);
 }
 
 .card h2 {
