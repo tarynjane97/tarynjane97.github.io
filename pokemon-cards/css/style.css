@@ -68,6 +68,24 @@
     margin: 4px 24px 20px;
 }
 
-.pokemon-card-2 {
-    background: linear-gradient(to top left, lightgreen, green, lightgreen);
+#pokemon-card-1, #pokemon-card-2 {
+    background: linear-gradient(to top left, 
+    lightgreen, 
+    green, 
+    lightgreen);
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(to top left, 
+    rgb(246, 149, 52), 
+    rgb(248, 79, 0), 
+    rgb(245, 142, 39));
+}
+
+
+#pokemon-card-4 {
+    background: linear-gradient(to top left, 
+    rgb(143, 249, 255), 
+    rgb(117, 202, 225), 
+    rgb(0, 251, 255));
 }
