@@ -503,5 +503,7 @@ body {
     #aside,
     #main {
         background-color: none;
+        margin: 0px;
+        padding: 0px;
     }
 }
