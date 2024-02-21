@@ -462,7 +462,7 @@ body {
         flex-wrap: wrap;
     }
     #nav a {
-        flex: 500px;
+        flex: 200px;
     }
 }
 
@@ -497,6 +497,9 @@ body {
     }
     #nav {
         flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 180px;
     }
     #banner-container,
     #card-1,
