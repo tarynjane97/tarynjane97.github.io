@@ -460,7 +460,9 @@ body {
     }
     #nav {
         flex-wrap: wrap;
-        flex: 1 300px;
+    }
+    #nav a {
+        flex: 500px;
     }
 }
 
@@ -495,6 +497,52 @@ body {
     }
     #nav {
         flex-wrap: wrap;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: none;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+/* Smaller Mobile Breakpoint */
+@media screen and (max-width: 399px) {
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "banner"
+        "card-1"
+        "card-2"
+        "card-3"
+        "aside"
+        "blog"
+        "footer"
+        "bottom"
+        ;
+    }
+    #shield-image,
+    #search-bar,
+    #search-button {
+        display: none;
+    }
+    #header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #header h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    #nav {
+        flex-direction: column;
     }
     #banner-container,
     #card-1,
