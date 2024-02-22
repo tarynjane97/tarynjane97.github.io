@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards-container1,
+#cards-container2,
+#cards-contaiiner3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card1 {
+    flex: 300px;
+    border: 2px solid orangered;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background: linear-gradient(from top gold, wheat, orangered, gold);
+    color: rgb(255, 55, 0)
+}
+
+.card1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    display: block;
+    border: 2px solid orangered;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card1 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transform:  
+    opacity 0.5s,
+    visibility 0.5s,
+    transform 0.5s;
+}
+
+.card1:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);    
+}
+
+
+.card2 {
+    flex: 300px;
+    border: 1px solid rgb(247, 182, 158);
+    background-color: rgb(247, 182, 158);
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    color: rgb(165, 48, 5);
+}
+
+.card2 a {
+    text-decoration: none;
+    color: rgb(165, 48, 5);
+    font-weight: bold;
+    display: block;
+    border: 2px solid rgb(165, 48, 5);
+    padding: 12px;
+    margin-top: 36px;
+    background-color: rgb(249, 195, 175);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+.card2:hover a {
+    background-color: rgba(250, 210, 194, 0.991);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.card3 {
+    flex: 400px;
+    margin: 24px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.card3 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    border-radius: 32px;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card3 .front,
+.card3 .back {
+    border: 3px solid rgb(245, 214, 214);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.card3 .back {
+    transform: scaleX(0);
+}
+
+#card3-1 .front {
+    background-image: url(../images/adopthero.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card3-2 .front {
+    background-image: url(../images/max2.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card3-3 .front {
+    background-image: url(../images/adopt2.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card3-4 .front,
+#card3-4 .back {
+    background-image: url(../images/adopt1.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.card3 .front {
+    transition: transform 0.25s;
+}
+
+.card3 .back {
+    transition: transform 0.25s 0.25s;
+}
+
+.card3:hover .front {
+    transform: scaleX(0);
+}
+
+.card3:hover .back {
+    transform: scaleX(1);
+}
