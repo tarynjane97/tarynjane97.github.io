@@ -9,7 +9,7 @@ body {
 
 #cards-container1,
 #cards-container2,
-#cards-contaiiner3 {
+#cards-container3 {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -17,21 +17,27 @@ body {
 
 .card1 {
     flex: 300px;
-    border: 2px solid orangered;
+    border: 2px solid black;
     margin: 24px;
     padding: 24px;
     border-radius: 12px;
     text-align: center;
-    background: linear-gradient(to bottom, gold, wheat, orangered, gold);
-    color: rgb(255, 55, 0)
+    background: linear-gradient(to bottom, 
+    #f59f82, 
+    wheat, 
+    rgb(255, 207, 190), 
+    #f59f82);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
 }
 
 .card1 a {
     text-decoration: none;
     font-weight: bold;
-    color: orangered;
+    color: black;
     display: block;
-    border: 2px solid orangered;
+    border: 2px solid black;
     padding: 12px;
     margin-top: 36px;
 }
@@ -140,8 +146,7 @@ body {
     position: absolute;
 }
 
-#card3-4 .front,
-#card3-4 .back {
+#card3-4 .front {
     background-image: url(../images/adopt1.jpg);
     background-size: cover;
     border-radius: 12px;
@@ -153,6 +158,37 @@ body {
     transition: transform 0.25s;
 }
 
+#card3-1 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #ffc0cb77,
+    #ffc0cb77
+    ), url(../images/adopthero.jpg);    
+}
+
+#card3-2 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #4ccafc77,
+    #4ccafc77
+    ), url(../images/max2.jpg);    
+}
+
+#card3-3 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #ffc0cb77,
+    #ffc0cb77
+    ), url(../images/adopt2.jpg);    
+}
+
+#card3-4 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #f8740fc3,
+    #f8740fc3
+    ), url(../images/adopt1.jpg);    
+}
 .card3 .back {
     transition: transform 0.25s 0.25s;
 }
