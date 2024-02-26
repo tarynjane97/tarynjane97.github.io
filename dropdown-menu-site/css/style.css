@@ -6,8 +6,11 @@
 
 body {
     margin: 0px;
-
     font-family: sans-serif;
+    background: linear-gradient(to bottom, 
+    #ffd3c0c4,
+    #fbd3c3cc
+    ), url(../images/backdrop.jpg);
 }
 
 #navbar {
