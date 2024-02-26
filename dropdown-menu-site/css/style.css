@@ -171,6 +171,7 @@ body {
     border: 5px solid #23c2e6df;
     border-radius: 12px;
     padding: 24px;
+    box-shadow: -4px 6px 6px #565353;
     transition: transform 0.25s;
 }
 
@@ -178,6 +179,7 @@ body {
     border: 5px solid #23c2e6df;
     border-radius: 12px;
     padding: 24px;
+    box-shadow: -4px 6px 6px #565353;
     transform: scaleX(0);
 }
 
@@ -255,6 +257,7 @@ body {
     padding: 24px;
     margin: 18px auto;
     border: 8px solid #23C1E6;
+    box-shadow: -4px 6px 6px #565353;
 }
 
 .single-column h1,
