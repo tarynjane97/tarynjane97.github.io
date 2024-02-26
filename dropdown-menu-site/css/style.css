@@ -108,16 +108,17 @@ body {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    color: #109cb8;
+    color: black;
     background-color: white;
     padding: 48px;
     border-right: 20px solid  #23C1E6;
 }
 
 #about h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 18px;
     text-align: center;
+    font-family: 'Bevan';
 }
 
 #about h4 {
@@ -125,6 +126,7 @@ body {
     margin: 18px;
     text-align: center;
     padding: 12px;
+    font-family: 'Raleway';
 }
 
 .cards-container {
@@ -148,10 +150,18 @@ body {
     font-weight: bold;
     color: black;
     display: block;
-    border: 2px solid black;
     border-radius: 32px;
-    padding: 12px;
-    margin-top: 36px;
+    padding: 10px;
+    margin-top: 32px;
+    background-color: #23c2e6df;
+}
+
+.card h2 {
+    font-family: 'Bevan';
+}
+
+.card p {
+    font-family: 'Raleway';
 }
 
 .card .front {
