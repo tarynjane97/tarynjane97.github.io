@@ -96,7 +96,7 @@ body {
 
 #about-img {
     flex: 1;
-    background-color: #fbd3c3;
+    background: url(../images/glassesdog.jpg);
     background-size: cover;
     background-position: center left;
     border-left: 20px solid  #23C1E6;
