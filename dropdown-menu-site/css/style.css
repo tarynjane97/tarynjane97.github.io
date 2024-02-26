@@ -75,21 +75,23 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 #hero-1 h1 {
     font-size: 48px;
     padding-left: auto;
     padding: 24px;
-    color: #23C1E6;
+    margin-left: 24px;
+    color: #109cb8;
+    font-family: 'Raleway';
 }
 
 #about {
     height: 100vh;
     display: flex;
-    border-bottom: 3px solid #fbd3c3;
+    border: 20px solid  #23C1E6;
 }
 
 #about-img {
@@ -97,6 +99,7 @@ body {
     background-color: #fbd3c3;
     background-size: cover;
     background-position: center left;
+    border-left: 20px solid  #23C1E6;
 }
 
 #about-content {
@@ -105,9 +108,10 @@ body {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    color: #23C1E6;
+    color: #109cb8;
     background-color: white;
     padding: 48px;
+    border-right: 20px solid  #23C1E6;
 }
 
 #about h2 {
@@ -123,11 +127,12 @@ body {
     padding: 12px;
 }
 
-.card-container {
+.cards-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin: 10px auto;
+    justify-content: center;
 }
 
 .card {
@@ -237,6 +242,8 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 24px;
+    border-left: 20px solid  #23C1E6;
+    border-right: 20px solid  #23C1E6;
 }
 
 .single-column h1,
@@ -258,7 +265,9 @@ body {
     font-family: "Raleway";
 }
 
-.adopt-image {
+.adopt-image img {
     width: 100%;
     object-fit: cover;
+    padding: 24px;
+    border-radius: 150px;
 }
