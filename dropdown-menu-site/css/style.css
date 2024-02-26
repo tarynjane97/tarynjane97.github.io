@@ -168,14 +168,14 @@ body {
 }
 
 .card .front {
-    border: 3px solid #f5d6d6;
+    border: 5px solid #23c2e6df;
     border-radius: 12px;
     padding: 24px;
     transition: transform 0.25s;
 }
 
 .card .back {
-    border: 3px solid #fbd3c3;
+    border: 5px solid #23c2e6df;
     border-radius: 12px;
     padding: 24px;
     transform: scaleX(0);
