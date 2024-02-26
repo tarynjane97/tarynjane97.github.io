@@ -1,1 +1,259 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #109cb8, #23C1E6);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #23C1E6);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+    font-family: "Bevan";
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+        z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #23C1E6;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #109cb8;
+}
+
+#hero-1 {
+    background-image: url(../images/adopthero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#hero-1 h1 {
+    font-size: 48px;
+    padding-left: auto;
+    padding: 24px;
+    color: #23C1E6;
+}
+
+#about {
+    height: 100vh;
+    display: flex;
+    border-bottom: 3px solid #fbd3c3;
+}
+
+#about-img {
+    flex: 1;
+    background-color: #fbd3c3;
+    background-size: cover;
+    background-position: center left;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: #23C1E6;
+    background-color: white;
+    padding: 48px;
+}
+
+#about h2 {
+    font-size: 40px;
+    margin: 18px;
+    text-align: center;
+}
+
+#about h4 {
+    font-size: 18px;
+    margin: 18px;
+    text-align: center;
+    padding: 12px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.card {
+    width: 200px;
+    margin: 24px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+    border: 2px solid black;
+    border-radius: 32px;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card .front {
+    border: 3px solid #f5d6d6;
+    border-radius: 12px;
+    padding: 24px;
+    transition: transform 0.25s;
+}
+
+
+.card .back {
+    border: 3px solid #fbd3c3;
+    border-radius: 12px;
+    padding: 24px;
+    transform: scaleX(0);
+}
+
+
+#card1 .front {
+    background-image: url(../images/adopt3.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card2 .front {
+    background-image: url(../images/adopt2.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card3 .front {
+    background-image: url(../images/adopt1.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card1 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #4ccafc77,
+    #4ccafc77
+    ), url(../images/max2.jpg);    
+}
+
+#card2 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #ffc0cb77,
+    #ffc0cb77
+    ), url(../images/adopt2.jpg);    
+}
+
+#card3 .back {
+    background-size: cover;
+    background: linear-gradient(to bottom, 
+    #f8740fc3,
+    #f8740fc3
+    ), url(../images/adopt1.jpg);    
+}
+.card .back {
+    transition: transform 0.25s 0.25s;
+}
+
+.card:hover .front {
+    transform: scaleX(0);
+}
+
+.card:hover .back {
+    transform: scaleX(1);
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #fbd3c3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+
+.single-column h1,
+.single-column h3,
+.single-column h4 {
+    font-family: "Bevan";
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.single-column h3,
+.single-column h4 {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.adopt-image {
+    width: 100%;
+    object-fit: cover;
+}

@@ -43,6 +43,11 @@ body {
     transition: 
         opacity 0.25s,
         visibility 0.25s;
+        z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
 }
 
 .dropdown-container:hover .dropdown-menu {
