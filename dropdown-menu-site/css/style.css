@@ -171,14 +171,12 @@ body {
     transition: transform 0.25s;
 }
 
-
 .card .back {
     border: 3px solid #fbd3c3;
     border-radius: 12px;
     padding: 24px;
     transform: scaleX(0);
 }
-
 
 #card1 .front {
     background-image: url(../images/adopt3.jpg);
@@ -210,24 +208,24 @@ body {
 #card1 .back {
     background-size: cover;
     background: linear-gradient(to bottom, 
-    #4ccafc77,
-    #4ccafc77
+    #ffc0cb,
+    #fbd3c3
     ), url(../images/max2.jpg);    
 }
 
 #card2 .back {
     background-size: cover;
     background: linear-gradient(to bottom, 
-    #ffc0cb77,
-    #ffc0cb77
+    #ffc0cb,
+    #fbd3c3
     ), url(../images/adopt2.jpg);    
 }
 
 #card3 .back {
     background-size: cover;
     background: linear-gradient(to bottom, 
-    #f8740fc3,
-    #f8740fc3
+    #ffc0cb,
+    #fbd3c3
     ), url(../images/adopt1.jpg);    
 }
 .card .back {
@@ -270,7 +268,6 @@ body {
     margin: 8px;
 }
 
-
 .single-column p {
     font-family: "Raleway";
 }
@@ -281,3 +278,66 @@ body {
     padding: 24px;
     border-radius: 150px;
 }
+
+ /* Responsiveness */
+ @media screen and (max-width: 1050px) and (min-width: 950px) {
+    #hero-1 h1 {
+        font-size: 40px;
+    }
+ }
+
+  /* Responsiveness */
+  @media screen and (max-width: 949px) and (min-width: 769px) {
+    #hero-1 h1 {
+        font-size: 32px;
+    }
+ }
+
+ /* Tablet break */
+ @media screen and (max-width: 768px) and (min-width: 480px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin: auto;
+    }
+
+    #hero-1 {
+        background-image: url(../images/adopthero.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    #hero-1 h1 {
+        font-size: 36px;
+        padding: 0px;
+        margin: 24px;
+        color: #109cb8;
+        font-family: 'Raleway';
+    }
+
+    #about {
+        height: 90vh;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #about-content {
+        border-right: 0px;
+    }
+
+    #about-img {
+        border-left: 0px;
+        flex: 0;
+    }
+
+    .cards-container {
+        flex-direction: column;
+    }
+ }
