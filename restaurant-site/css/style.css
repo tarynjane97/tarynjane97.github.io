@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom,
+    #ffffff88,
+    #fffffff6),
+    url(../images/backimage.jpg
+    );
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #543263, #90749E);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding: 13px 24px 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+        z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #90749E;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #543263;
+}
+
+#hero {
+    background-image: url(../images/mysteryhero.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+    border-bottom: 18px solid #90749E;
+}
+
+#hero h2 {
+    font-size: 48px;
+    color: whitesmoke;
+    margin-left: 32px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #90749E;
+}
+
+#hero h4 {
+    color: whitesmoke;
+    padding: 0px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+#hero a,
+.single-column a {
+    text-align: center;
+    text-decoration: none;
+    color: #543263;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #faf4ff;
+    padding: 12px;
+    margin-left: 32px;
+    box-shadow: -4px 6px 6px #b9b1b1;
+    margin-bottom: 36px;
+}
+
+.single-column {
+    margin: 0px auto;
+    width: 75%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #543263;
+    padding: 24px;
+    color: whitesmoke;
+}
+
+
+.single-column h1 {
+    border-bottom: 2px solid #90749E;
+}
+
+.single-column h3 {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.single-column p {
+    font-size: 18px;
+    padding: 32px;
+}
+
+
