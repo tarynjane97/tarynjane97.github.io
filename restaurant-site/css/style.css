@@ -136,7 +136,8 @@ body {
     padding: 32px;
 }
 
-#centered-column {
+#centered-column,
+.menu-container {
     display: flex;
     justify-content: center;
     margin: 0px auto;
@@ -150,6 +151,7 @@ body {
     margin: 48px;
     color: whitesmoke;
     text-align: center;
+    flex: 1 300px;
 }
 
 .card h2 {
@@ -158,18 +160,30 @@ body {
 }
 
 #card1 {
-    background: url(../images/bites1.jpg);
-    object-fit: cover;
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/bites1.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 #card2 {
-    background: url(../images/bites2.jpg);
-    object-fit: cover;
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/bites2.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 #card3 {
-    background: url(../images/bites3.jpg);
-    object-fit: cover;
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a),  
+    url(../images/bites3.jpg);
+    background-size: cover; 
+    background-position: top;
 }
 
 .card a {
@@ -182,4 +196,114 @@ body {
     padding: 12px;
     box-shadow: -4px 6px 6px #b9b1b1;
     margin: 48px;
+}
+
+.side-by-side {
+    height: 400px;
+    display: flex;
+    border-bottom: 18px solid #90749E;
+}
+
+#side-by-side-img {
+    flex: 1;
+    background-image: url(../images/mysteryhero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#side-by-side-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 48px;
+    text-align: center;
+}
+
+.menu-container h1 {
+    text-align: center;
+}
+
+#mcard1 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard2 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard3 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard4 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m4.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard5 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m5.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard6 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m6.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard7 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m7.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard8 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m8.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#mcard9 {
+    background: linear-gradient(to bottom,
+    #25232388,
+    #1404049a), 
+    url(../images/m9.jpg);
+    background-size: cover;
+    background-position: top;
 }
