@@ -5,11 +5,6 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(to bottom,
-    #ffffff88,
-    #fffffff6),
-    url(../images/backimage.jpg
-    );
 }
 
 #navbar {
@@ -66,12 +61,12 @@ body {
 }
 
 #hero {
-    background-image: url(../images/mysteryhero.jpg);
-    height: 80vh;
+    background-image: url(../images/hero2.jpg);
+    height: 50vh;
     background-size: cover;
     background-position: center left;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 48px;
@@ -119,6 +114,8 @@ body {
     background-color: #543263;
     padding: 24px;
     color: whitesmoke;
+    margin-bottom: 48px;
+    margin-top: 48px;
 }
 
 
@@ -166,6 +163,7 @@ body {
     url(../images/bites1.jpg);
     background-size: cover;
     background-position: top;
+    box-shadow: -4px 6px 6px #605161;
 }
 
 #card2 {
@@ -175,6 +173,7 @@ body {
     url(../images/bites2.jpg);
     background-size: cover;
     background-position: top;
+    box-shadow: -4px 6px 6px #605161;
 }
 
 #card3 {
@@ -184,6 +183,7 @@ body {
     url(../images/bites3.jpg);
     background-size: cover; 
     background-position: top;
+    box-shadow: -4px 6px 6px #605161;
 }
 
 .card a {
