@@ -225,10 +225,11 @@ body {
 
 .menu-container {
     display: flex;
-}
-
-.menu-container h1 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 48px auto;
 }
 
 #mcard1 {
@@ -310,4 +311,22 @@ body {
     url(../images/m9.jpg);
     background-size: cover;
     background-position: top;
+}
+
+#footer {
+    background: linear-gradient(to bottom, #543263, #90749E);
+    color: whitesmoke;
+    padding: 14px;
+}
+
+#footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#footer-nav {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
