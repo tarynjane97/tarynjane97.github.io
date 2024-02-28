@@ -136,8 +136,7 @@ body {
     padding: 32px;
 }
 
-#centered-column,
-.menu-container {
+#centered-column {
     display: flex;
     justify-content: center;
     margin: 0px auto;
@@ -146,6 +145,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     border: 1px solid transparent;
     padding: 24px;
     margin: 48px;
@@ -199,7 +199,7 @@ body {
 }
 
 .side-by-side {
-    height: 400px;
+    height: 600px;
     display: flex;
     border-bottom: 18px solid #90749E;
 }
@@ -221,6 +221,10 @@ body {
     color: whitesmoke;
     padding: 48px;
     text-align: center;
+}
+
+.menu-container {
+    display: flex;
 }
 
 .menu-container h1 {
