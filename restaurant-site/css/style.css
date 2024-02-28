@@ -136,4 +136,50 @@ body {
     padding: 32px;
 }
 
+#centered-column {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    padding: 24px;
+    margin: 48px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card h2 {
+    margin: 48px;
+    text-transform: uppercase;
+}
+
+#card1 {
+    background: url(../images/bites1.jpg);
+    object-fit: cover;
+}
+
+#card2 {
+    background: url(../images/bites2.jpg);
+    object-fit: cover;
+}
+
+#card3 {
+    background: url(../images/bites3.jpg);
+    object-fit: cover;
+}
+
+.card a {
+    text-align: center;
+    text-decoration: none;
+    color: #543263;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #faf4ff;
+    padding: 12px;
+    box-shadow: -4px 6px 6px #b9b1b1;
+    margin: 48px;
+}
