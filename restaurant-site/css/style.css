@@ -415,6 +415,10 @@ h1, h2 {
     #centered-column .card {
         flex: 1 500px;
     }
+
+    #side-by-side-img {
+        background-position: bottom center;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -452,5 +456,9 @@ h1, h2 {
     .side-by-side {
         display: flex;
         flex-direction: column;
+    }
+
+    #side-by-side-img {
+        background-position: bottom center;
     }
 }
