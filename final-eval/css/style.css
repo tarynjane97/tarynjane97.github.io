@@ -28,6 +28,10 @@ body {
     font-family: "Bebas Neue", sans-serif;
 }
 
+#host {
+    text-transform: uppercase;
+}
+
 #title {
     font-size: 70px;
 }
