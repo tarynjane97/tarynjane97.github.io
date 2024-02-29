@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, 
+    #ffffff, 
+    #ffffff,
+    #ffffffeb),
+    url(../images/football.png)
+    ;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 480px;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.single-column h1,
+#party {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#title {
+    font-size: 70px;
+}
+
+#party {
+    font-size: 36px;
+}
+
+
+.roster-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 48px;
+}
+
+.roster-container h1 {
+    font-size: 100px;
+    margin: 48px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#r1 img {
+    width: 250px;
+}
+
+#r2 img {
+    width: 280px;
+}
+
+
+.roster h4,
+.roster h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0px;
+}
+
+.content-container a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 18px;
+    margin: 24px;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 24px;
+    box-shadow: -4px 3px 3px rgb(176, 174, 174);
+} 
+
+.content-container a:hover {
+    border: 1px solid black;
+    background-color: rgb(255, 252, 252);
+    color: black;    
+}
+
+.buttons {
+    margin: 24px;
+}
+
+ /* Tablet break */
+ @media screen and (max-width: 730px) and (min-width: 479px) {
+    .roster-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .content-container h3 {
+        font-size: 16px;
+    }
+ }
+
+
