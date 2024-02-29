@@ -7,10 +7,10 @@
 body {
     margin: 0px;
     font-family: "Montserrat", sans-serif;
-    /* background: linear-gradient(to bottom,
+    background: linear-gradient(to bottom,
     #ffffffe8,
     #fefdffbb), 
-    url(../images/backdrop.png); */
+    url(../images/backdrop.png);
 }
 
 h1, h2 {
