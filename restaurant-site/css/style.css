@@ -419,6 +419,14 @@ h1, h2 {
     #side-by-side-img {
         background-position: bottom center;
     }
+
+    #footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 8px auto;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -460,5 +468,13 @@ h1, h2 {
 
     #side-by-side-img {
         background-position: bottom center;
+    }
+
+    #footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 8px auto;
     }
 }
