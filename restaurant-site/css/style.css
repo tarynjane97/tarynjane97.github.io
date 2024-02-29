@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: sans-serif;
-    background: linear-gradient(to bottom,
+    font-family: "Montserrat", sans-serif;
+    /* background: linear-gradient(to bottom,
     #ffffffe8,
     #fefdffbb), 
-    url(../images/backdrop.png);
+    url(../images/backdrop.png); */
+}
+
+h1, h2 {
+    font-family: "IM Fell DW Pica", serif;
 }
 
 #navbar img {
@@ -20,7 +26,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to right, #90749E, #543263);
+    background: linear-gradient(to right, white, #90749E, #543263);
     display: flex;
     align-items: center;
 }
@@ -72,7 +78,8 @@ body {
     background: #543263;
 }
 
-#hero {
+#hero,
+#hero2 {
     background-image: url(../images/hero1.jpg);
     height: 50vh;
     background-size: cover;
@@ -82,13 +89,21 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 48px;
+}
+
+#hero {
     border-bottom: 18px solid #90749E;
+}
+
+#hero2 {
+    border-top: 18px solid #90749E;
+    margin-bottom: 0px;
 }
 
 #hero h2 {
     font-size: 48px;
     color: whitesmoke;
-    margin-left: 32px;
+    text-align: center;
     margin-bottom: 0px;
     border-bottom: 2px solid #90749E;
 }
@@ -112,6 +127,14 @@ body {
     margin-left: 32px;
     box-shadow: -4px 6px 6px #b9b1b1;
     margin-bottom: 36px;
+}
+
+#hero2 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 48px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .single-column {
@@ -343,35 +366,12 @@ body {
     background-position: 25%;
 }
 
-.single-column2 {
-    display: flex;
-    width: 50%;
-    margin: 0px auto;
-}
-
-.home-side-by-side {
-    display: flex;
-    flex-direction: column;
-    background-color: #543263;
-    margin: 0px auto;
-    color: whitesmoke;
-    text-align: center;
-    padding: 36px;
-    flex: 1;
-}
-
-.home-side-by-side-img {
-    background: url(../images/history-img.png);
-    flex: 1;
-    background-size: cover;
-    background-position: 25%;
-}
 
 #footer {
     background: linear-gradient(to right, #90749E, #543263);
     color: whitesmoke;
     padding: 14px;
-    margin-top: 100px;
+    margin: 0px;
 }
 
 #footer a {
@@ -384,4 +384,73 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 985px) and (min-width: 769px) {
+
+    #centered-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #centered-column .card {
+        flex: 1 700px;
+        width: 70%;
+        margin: 24px auto;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 580px) {
+
+    #centered-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-by-side {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #centered-column .card {
+        flex: 1 500px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    #centered-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #centered-column .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+
+    .card h2 {
+        margin: 0px;
+        text-transform: uppercase;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom, white, #90749E, #543263);
+    }
+
+    #navbar #logo {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .side-by-side {
+        display: flex;
+        flex-direction: column;
+    }
 }
