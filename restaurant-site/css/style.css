@@ -488,6 +488,11 @@ h1, h2 {
         background-position: bottom center;
     }
 
+    .single-column p {
+        font-size: 14px;
+        font-weight: bold;  
+    }
+
     #hero2 p {
         font-size: 14px;
     }
