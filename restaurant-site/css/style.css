@@ -488,6 +488,10 @@ h1, h2 {
         background-position: bottom center;
     }
 
+    #hero2 p {
+        font-size: 14px;
+    }
+
     #footer-nav {
         display: flex;
         flex-direction: column;
