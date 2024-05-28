@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,6 +8,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
 #home {
     height: 100vh;
     display: flex;
@@ -22,6 +23,8 @@ body {
     flex: 1;
     color: rgb(30, 25, 25);
     background-color: #f1e5d8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
 #img {
@@ -33,13 +36,15 @@ body {
 
 #text h2, #about h2, #contact h2, #layout h2 {
     font-family: "DM Serif Display", serif;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     font-size: 68px;
 }
 
+
 p, h4 {
-    font-family: "oxygen", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
 }
 
 #home h2 {
