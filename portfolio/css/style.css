@@ -147,9 +147,10 @@ p, h4 {
 }
 
 #layout {
-    width: 100%;
+    max-width: 80%;
     margin: 0px auto;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 #layout h2 {
@@ -229,6 +230,8 @@ p, h4 {
     padding: 18px 40px;
     font-weight: bolder;
     border: 2px solid #ceb8a3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 .card a:hover {
